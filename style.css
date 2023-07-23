@@ -124,7 +124,7 @@ span{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: .4s ease;
+    transition: .3s ease;
 }
 .social-media a:hover{
     background:var(--main-color);
@@ -287,7 +287,7 @@ span{
 }
 .portfolio-box img{
     width: 100%;
-    transition: .3s ease;
+    transition: .2s ease;
 }
 .portfolio-box:hover img{
     transform: scale(1.1);
