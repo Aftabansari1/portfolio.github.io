@@ -39,6 +39,7 @@ body{
     justify-content:space-between ;
     align-items: center;
     z-index: 100;
+    /* margin-bottom: 10rem; */
 }
 .logo{
     font-size:2.5rem ;
@@ -51,7 +52,7 @@ body{
     font-size: 1.7rem;
     color:var(--text-color);
     margin-left: 4rem;
-    transition: .2s;
+    transition: .3s;
 }
 .navbar a:hover,
 .navbar a.active{
@@ -64,10 +65,10 @@ body{
     display: none;
 }
 
-/* section{
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
-} */
+section{
+    /* min-height: 100vh; */
+    /* padding: 10rem 9% 8rem; */
+}
 
 /* ----------home section---------- */
 
@@ -125,7 +126,7 @@ span{
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: .4s ease;
+    transition: .5s ease;
 }
 .social-media a:hover{
     background:var(--main-color);
@@ -183,6 +184,7 @@ span{
 /* ------------services---------- */
 .services{
     padding: 10rem 9% 8rem;
+}
 .services h2{
     margin-bottom: 5rem;
 }
@@ -201,7 +203,7 @@ span{
     border-radius:2rem;
     text-align: center;
     border:.2rem solid var(--bg-color);
-    transition: .2s ease;
+    transition: .5s ease;
 }
 .services-container .services-box:hover{
     border-color: var(--main-color);
@@ -274,6 +276,7 @@ span{
 .portfolio{
     padding: 10rem 9% 8rem;
     background:var(--second-bg-color);
+    /* padding-bottom: 2rem; */
 }
 .portfolio h2{
     margin-bottom: 4rem; 
@@ -283,6 +286,7 @@ span{
     grid-template-columns: repeat(3,1fr);
     align-items:center;
     gap: 2.5rem;
+    margin-bottom: 5rem;
 }
 .portfolio-container .portfolio-box{
     position: relative;
@@ -293,7 +297,7 @@ span{
 }
 .portfolio-box img{
     width: 100%;
-    transition: .2s ease;
+    transition: .5s ease;
 }
 .portfolio-box:hover img{
     transform: scale(1.1);
@@ -313,7 +317,7 @@ span{
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
-    transition: .2s ease;
+    transition: .5s ease;
 }
 
 .portfolio-box:hover .portfolio-layer{
@@ -344,6 +348,7 @@ span{
 /* -----------contact------------- */
 .contact{
     padding: 10rem 9% 8rem;
+}
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -388,7 +393,6 @@ span{
     flex-wrap: wrap;
     padding: 2rem 9%;
     background:var(--second-bg-color);
-
 }
 .footer-text p{
     font-size: 1.6rem;
@@ -425,7 +429,7 @@ span{
         padding: 2rem 3%;
     }
     section{
-/*         padding: 10rem 3% 2rem; */
+        /* padding: 10rem 3% 2rem; */
     }
     .services{
         padding-bottom: 7rem;
