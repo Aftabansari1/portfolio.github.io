@@ -65,13 +65,14 @@ body{
 }
 
 section{
-    min-height: 100vh;
-    padding: 10rem 9% 2rem;
+/*     min-height: 100vh; */
+/*     padding: 10rem 9% 2rem; */
 }
 
 /* ----------home section---------- */
 
 .home{
+    padding: 10rem 9% 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,6 +150,7 @@ span{
 
 /* -------about section-------- */
 .about{
+    padding: 10rem 9% 8rem;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -179,6 +181,8 @@ span{
 
 
 /* ------------services---------- */
+.services{
+    padding: 10rem 9% 8rem;
 .services h2{
     margin-bottom: 5rem;
 }
@@ -218,6 +222,7 @@ span{
 
 /* ---------------skills------------------- */
 .skills{
+    padding: 10rem 9% 8rem;
     background:#242c38
 }
 .skills .heading{
@@ -267,6 +272,7 @@ span{
 
 /* -----------portfolio------- */
 .portfolio{
+    padding: 10rem 9% 8rem;
     background:var(--second-bg-color);
 }
 .portfolio h2{
@@ -336,6 +342,8 @@ span{
 }
 
 /* -----------contact------------- */
+.contact{
+    padding: 10rem 9% 8rem;
 .contact h2{
     margin-bottom: 3rem;
 }
